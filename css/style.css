@@ -7,7 +7,7 @@
   background-color: #39474e;
   border: 0px;
   border-radius: 0px;
-  height: 80px;
+  height: 90px;
   padding-bottom: 0px;
   margin: 0;
 
@@ -16,8 +16,17 @@
 .navtext {
   padding-top: 15px;
   padding-left: 40px;
+  font-size: 16px;
+  /*font-family: sans-serif;*/
   /*padding-bottom: 0px;*/
 }
+
+.started {
+  background-color: #6fbbb7;
+  border-radius: 6px;
+}
+
+.navbar-inverse .navbar-nav>li>a {}
 
 /*Check on these for teal underline and white to grey*/
 a {
@@ -55,6 +64,7 @@ a:hover {
   font-weight: 700;
   color: white;
   padding-left: 100px;
+
 }
 
 .logocontainer {
@@ -71,15 +81,34 @@ a:hover {
   margin-right: 10%;
 }
 
+.infoheader {
+font-size: 26px;
+font-style: italic;
+font-weight: bolder;
+color: #838f95;
+padding-top: 30px;
+padding-left: 15px;
+}
+
+.infosub {
+font-family: sans-serif;
+color: #39474e;
+font-size: 16px;
+line-height: 1.6;
+padding-left: 15px;
+
+}
+
+/*form details*/
+
 .formbg {
   background-color: #eeeeee;
-  height: 400px;
+  /*height: 400px;*/
   width: 300px;
   padding: 10px;
   border-radius: 10px;
-  line-height: 2;
   margin-top: 50px;
-
+  margin-bottom: 50px;
 }
 
 .formtitle {
@@ -95,6 +124,154 @@ a:hover {
   font-family: sans-serif;
 }
 
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+.first {
+  width: 48%;
+}
+
+.last {
+  width: 48%;
+}
+
 .submit {
-  background-color: teal;
+  background-color: #6fbbb7;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #4fa8a3;
+  color: white;
+  font-size: 16px;
+
+}
+/*course section text*/
+
+
+.courses {
+  background-color: #eeeeee;
+  padding-top: 30px;
+}
+
+
+.discover {
+  text-align: center;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: bold;
+  color: #838F95
+}
+
+
+.learning {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #39474e;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+
+/*course section logos*/
+
+.courseholder {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 50px;
+}
+
+.courses {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.img-responsive {
+  padding: 5px;
+  display: inline;
+  margin: 0 auto;
+
+}
+.employerheader {
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.employersub {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 100;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.employers {
+  background-image: url(../images/employers-image.jpg);
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.companylogos {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.questions {
+font-size: 22px;
+font-weight: normal;
+color: #838f95;
+padding-top: 40px;
+}
+
+
+.talk {
+  font-size: 34px;
+  font-weight: bold;
+  font-style: italic;
+  color: #838f95;
+}
+
+.thinking {
+  font-family: sans-serif;
+  color: #39474e;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.formbg1 {
+  background-color: #eeeeee;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 2;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.bottombar {
+  background-color: #39474e;
+  height: 100px;
+}
+
+.first1 {
+  width: 47%;
+}
+
+.last1 {
+  width: 47%;
 }
