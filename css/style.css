@@ -1,0 +1,100 @@
+* {
+  font-family: 'PT Serif', serif;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: #39474e;
+  border: 0px;
+  border-radius: 0px;
+  height: 80px;
+  padding-bottom: 0px;
+  margin: 0;
+
+}
+
+.navtext {
+  padding-top: 15px;
+  padding-left: 40px;
+  /*padding-bottom: 0px;*/
+}
+
+/*Check on these for teal underline and white to grey*/
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgba(255,255,255,0.4);
+  text-decoration: underline;
+  text-decoration-color: teal;
+}
+/*Check on these for teal underline and white to grey*/
+
+.tiylogo {
+  padding-left: 60px;
+}
+
+.hero {
+  background-image: url(../images/herobg.jpg);
+  height: 600px;
+  background-position: center;
+  margin-top: 0;
+}
+
+.heroheader {
+  font-size: 62px;
+  font-weight: 700;
+  color: white;
+  padding-top: 200px;
+  padding-left: 100px;
+}
+
+.herosub {
+  font-size: 26px;
+  font-weight: 700;
+  color: white;
+  padding-left: 100px;
+}
+
+.logocontainer {
+  /*margin-left: 10%;
+  margin-right: 10%;*/
+  background-color: #eeeeee;
+  padding: 0;
+  border-bottom: 1px solid #D5D5D5;
+
+}
+
+.logorow {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.formbg {
+  background-color: #eeeeee;
+  height: 400px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 2;
+  margin-top: 50px;
+
+}
+
+.formtitle {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.formsub {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 2;
+  font-family: sans-serif;
+}
+
+.submit {
+  background-color: teal;
+}
