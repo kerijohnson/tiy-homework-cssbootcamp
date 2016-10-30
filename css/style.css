@@ -13,46 +13,78 @@
 
 }
 
-.navtext {
+.navtextleft {
   padding-top: 15px;
-  padding-left: 40px;
-  font-size: 16px;
-  /*font-family: sans-serif;*/
-  /*padding-bottom: 0px;*/
+  padding-left: 20px;
+  font-size: 17px;
+
 }
 
-.started {
-  background-color: #6fbbb7;
-  border-radius: 6px;
+.navtextright {
+  padding-top: 15px;
+  padding-right: 30px;
+  font-size: 14px;
 }
 
-.navbar-inverse .navbar-nav>li>a {}
+/*right nav bar*/
 
-/*Check on these for teal underline and white to grey*/
-a {
+.navbar-inverse .navbar-nav.navbar-right > li > a {
+  color: rgba(181,183,190,0.6);
+}
+
+.navbar-inverse .navbar-nav.navbar-right > li > a:hover {
+   color: white;
+}
+
+
+/*left nav bar*/
+
+.navbar-inverse .navbar-nav.navbar-left > li > a {
   color: white;
 }
 
-a:hover {
-  color: rgba(255,255,255,0.4);
-  text-decoration: underline;
-  text-decoration-color: teal;
+.navbar-inverse .navbar-nav.navbar-left > li > a:hover {
+   color: rgba(181,183,190,0.6);
+   border-bottom: 2px solid teal;
+   border-spacing: 0;
 }
-/*Check on these for teal underline and white to grey*/
 
-.tiylogo {
+
+.started {
+  background-color: #508c89;
+  border-radius: 3px;
+}
+
+.started a {
+  color: white !important;
+}
+
+.started a:hover {
+  background-color: #6fbbb7 !important;
+  border-radius: 3px;
+}
+
+.navbar-brand{
   padding-left: 60px;
+  padding-top: 0px;
+  padding-bottom: 0;
+}
+
+.navbar-brand>img {
+  height: 130%;
+  width: 130%;
+ margin-top: 10px;
 }
 
 .hero {
   background-image: url(../images/herobg.jpg);
-  height: 600px;
+  height: 700px;
   background-position: center;
   margin-top: 0;
 }
 
 .heroheader {
-  font-size: 62px;
+  font-size: 5.5rem;
   font-weight: 700;
   color: white;
   padding-top: 200px;
@@ -60,7 +92,7 @@ a:hover {
 }
 
 .herosub {
-  font-size: 26px;
+  font-size: 3rem;
   font-weight: 700;
   color: white;
   padding-left: 100px;
@@ -103,8 +135,10 @@ padding-left: 15px;
   width: 300px;
   padding: 10px;
   border-radius: 10px;
-  margin-top: 50px;
+    margin: 0 auto;
+  margin-top: 80px;
   margin-bottom: 50px;
+
 }
 
 .formtitle {
@@ -243,7 +277,7 @@ textarea {
 
 .employers {
   background-image: url(../images/employers-image.jpg);
-  height: 670px;
+  height: 690px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -282,6 +316,7 @@ padding-top: 40px;
   padding: 10px;
   border-radius: 10px;
   line-height: 2;
+  margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
 }
